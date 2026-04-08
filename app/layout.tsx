@@ -1,5 +1,13 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Playfair_Display, Ms_Madi, Caveat, Poppins, Playwrite_ES_Deco } from "next/font/google";
+import {
+  Geist,
+  Geist_Mono,
+  Playfair_Display,
+  Ms_Madi,
+  Caveat,
+  Poppins,
+  Playwrite_ES_Deco,
+} from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
@@ -48,33 +56,46 @@ const playwriteEsDeco = Playwrite_ES_Deco({
 export const metadata: Metadata = {
   metadataBase: new URL("https://siddhesh.dev"),
   title: {
-    default: "Siddhesh — Developer, Builder, Learner",
-    template: "%s | Siddhesh",
+    default: "Siddhesh Shinde",
+    template: "%s | Siddhesh Shinde",
   },
   description:
     "Personal portfolio and blog by Siddhesh. Building apps and SaaS products that matter. Competitive Programming, Full-Stack Engineering, and Daily Learning.",
   keywords: [
-    "Siddhesh", "developer", "portfolio", "full-stack", "React", "Next.js",
-    "TypeScript", "JavaScript", "competitive programming", "SaaS", "blog",
-    "system design", "web development", "Node.js", "Supabase",
+    "Siddhesh",
+    "developer",
+    "portfolio",
+    "full-stack",
+    "React",
+    "Next.js",
+    "TypeScript",
+    "JavaScript",
+    "competitive programming",
+    "SaaS",
+    "blog",
+    "system design",
+    "web development",
+    "Node.js",
+    "Supabase",
   ],
-  authors: [{ name: "Siddhesh", url: "https://siddhesh.dev" }],
+  authors: [{ name: "Siddhesh", url: "https://siddhesh-portfolio-plum.vercel.app/" }],
   creator: "Siddhesh",
   publisher: "Siddhesh",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Siddhesh — Developer, Builder, Learner",
-    description: "Building apps and SaaS products that matter. Full-Stack Engineer & Competitive Programmer.",
+    title: "Siddhesh Shinde",
+    description:
+      "Building apps and SaaS products that matter. Full-Stack Engineer & Competitive Programmer.",
     url: "https://siddhesh.dev",
-    siteName: "Siddhesh",
+    siteName: "Siddhesh Shinde",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Siddhesh — Developer, Builder, Learner",
+    title: "Siddhesh Shinde",
     description: "Building apps and SaaS products that matter.",
     creator: "@Siddhesh_2110",
   },
@@ -104,7 +125,11 @@ export default function RootLayout({
     >
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
         <link rel="preconnect" href="https://tbktgklroiyglzdqjxtg.supabase.co" />
       </head>
       <body className="min-h-full flex flex-col" suppressHydrationWarning>
