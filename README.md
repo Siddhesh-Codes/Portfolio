@@ -33,8 +33,6 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000).
 
 
-For production, add these same variables in the **Vercel Dashboard → Settings → Environment Variables**.
-
 ## Deployment
 
 This project is deployed on [Vercel](https://vercel.com). Push to `main` to trigger automatic deployments.
