@@ -30,7 +30,6 @@ const SKILL_CATEGORIES: SkillCategory[] = [
     label: "Frontend",
     skills: [
       { name: "React", icon: "react" },
-      { name: "React Native", icon: "react" },
       { name: "Next.js", icon: "nextjs" },
     ],
   },
