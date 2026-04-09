@@ -88,7 +88,7 @@ export const metadata: Metadata = {
     title: "Siddhesh Shinde",
     description:
       "Building apps and SaaS products that matter. Full-Stack Engineer & Competitive Programmer.",
-    url: "https://siddhesh.dev",
+    url: "https://siddhesh-portfolio-plum.vercel.app/",
     siteName: "Siddhesh Shinde",
     type: "website",
     locale: "en_US",
