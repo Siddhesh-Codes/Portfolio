@@ -53,7 +53,6 @@ const SKILL_CATEGORIES: SkillCategory[] = [
     label: "Databases",
     skills: [
       { name: "MongoDB", icon: "mongodb" },
-      { name: "Prisma", icon: "prisma" },
       { name: "Supabase", icon: "supabase" },
       { name: "PostgreSQL", icon: "postgres" },
     ],
