@@ -65,8 +65,6 @@ const SKILL_CATEGORIES: SkillCategory[] = [
       { name: "GitHub", icon: "github" },
       { name: "Postman", icon: "postman" },
       { name: "Docker", icon: "docker" },
-      { name: "Redis", icon: "redis" },
-      { name: "AWS", icon: "aws" },
     ],
   },
 ];
